@@ -4,6 +4,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Login credentials 
+Fake store APIS  so your sign-up account may not work for login so use these credentials
+ username:'johnd',
+ password:'m38rmF$',
+ username: "mor_2314",
+ password: "83r5^_"
+
+
 In the project directory, you can run:
 
 ### `npm start`
