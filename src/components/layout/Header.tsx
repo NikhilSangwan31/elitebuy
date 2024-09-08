@@ -32,11 +32,11 @@ const Header: React.FC = () => {
             <Link to="" className="text-muted-foreground hover:text-foreground">
               Sign Up
             </Link>
-            <Link to="/" onClick={() => {}} className="text-muted-foreground hover:text-foreground">
+            <Link to="/login"  onClick={() => {dispatch(logout())}} className="text-muted-foreground hover:text-foreground">
               Logout
             </Link>
           </nav>
-          <button className="md:hidden" onClick={() => {dispatch(logout())}}>
+          <button className="md:hidden" onClick={() => {}}>
             {/* <MenuIcon className="w-6 h-6" /> */} Menu Icon
           </button>
         </div>
