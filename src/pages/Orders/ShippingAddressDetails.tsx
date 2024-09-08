@@ -1,4 +1,4 @@
-import React from "react";
+
 import {OrderState} from "../../types/types";
 
 const ShippingAddressDetails = ({orders}: OrderState) => {
